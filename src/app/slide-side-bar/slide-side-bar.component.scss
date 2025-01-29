@@ -41,6 +41,12 @@ app-side-nav-bar {
     height: calc(100vh - 156px);
 }
 
+@media (min-width: 1921px) {
+    section {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     section {
         display: none;
