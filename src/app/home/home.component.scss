@@ -75,6 +75,14 @@ app-slide-side-bar {
     height: 100vh;
 }
 
+@media screen and (min-width: 1921px) {
+    .home-container {
+        max-width: 1920px;
+        justify-self: center;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     app-slide-side-bar {
         left: 0;
